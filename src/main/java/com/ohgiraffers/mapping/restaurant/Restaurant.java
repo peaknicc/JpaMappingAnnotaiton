@@ -18,11 +18,11 @@ public class Restaurant {
     private String foodMain;
     @Column(name = "score", nullable = false)
     private int score;
-    @Column(name = "address", nullable = false)
+    @Column(name = "address", nullable = false, length = 500)
     private String address;
     @Column(name = "phone", nullable = false)
     private String phone;
-    @Column(name = "status", nullable = false)
+    @Column(name = "status", nullable = false, columnDefinition = "char(1) default 'Y'")
     private String status;
 
     protected Restaurant() {}
