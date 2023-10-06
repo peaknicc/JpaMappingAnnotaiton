@@ -1,4 +1,4 @@
-package com.ohgiraffers.mapping.restaurant;
+package com.ohgiraffers.mapping.section01.restaurant;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

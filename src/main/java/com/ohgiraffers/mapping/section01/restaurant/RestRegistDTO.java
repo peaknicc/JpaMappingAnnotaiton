@@ -1,4 +1,4 @@
-package com.ohgiraffers.mapping.restaurant;
+package com.ohgiraffers.mapping.section01.restaurant;
 
 public class RestRegistDTO {
 
